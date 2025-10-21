@@ -1,0 +1,39 @@
+{
+  "conf": {
+    "headers": [],
+    "redirects": [],
+    "rewrites": [],
+    "caches": [],
+    "has404": true
+  },
+  "has404": true,
+  "routes": [
+    {
+      "path": "/",
+      "isStatic": true
+    },
+    {
+      "path": "/_app"
+    },
+    {
+      "path": "/_document"
+    },
+    {
+      "path": "/_error"
+    },
+    {
+      "path": "/api/hello"
+    },
+    {
+      "path": "/test",
+      "isStatic": true
+    },
+    {
+      "path": "/404",
+      "isStatic": true
+    },
+    {
+      "path": "/_next/image/"
+    }
+  ]
+}
